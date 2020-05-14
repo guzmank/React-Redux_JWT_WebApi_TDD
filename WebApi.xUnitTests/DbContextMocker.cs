@@ -5,7 +5,7 @@ namespace WebApi.xUnitTests
 {
     public static class DbContextMocker
     {
-        private static readonly string connectionString = "Server=KELVIN-LP; Database=HomeDB; User Id=umsitari; Password=Lapsyl100%; MultipleActiveResultSets=True; Connection Timeout=500";
+        private static readonly string connectionString = "Server=SERVER_NAME; Database=DATABASE_NAME_DB; User Id=USERNAME; Password=PASSWORD; MultipleActiveResultSets=True; Connection Timeout=500";
 
         public static HomeDBContext GetHomeDBContext()
         {
